@@ -45,7 +45,7 @@
   display: flex;
   padding: 20px 24px;
   gap: 4px;
-/*  */
+  flex-direction: column;
 /*  */
 }
 
@@ -72,12 +72,10 @@
 
 .nav {
   background-color: #0F6E56;
-  display: flex;
-  flex-direction: column; 
+  display: flex; 
   padding: 10px 24px;
   gap: 20px;
-
-  /* add here */
+  justify-content: space-around;
 }
 
 .nav-link {
@@ -102,7 +100,7 @@
   display: flex;
   gap: 10px;
   color: white;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center; 
 }
 
@@ -155,7 +153,7 @@
   flex-shrink: 0;
   border: 0.5px solid #D3D1C7;
   display: flex;
-  flex-direction: row;  
+  flex-direction: column;  
   gap: 10px;
 }
 
@@ -205,7 +203,7 @@
 .images {
   display: flex;
   flex: 1;
-  flex-direction: row; 
+  flex-direction: column; 
   gap: 12px;
 }
 
